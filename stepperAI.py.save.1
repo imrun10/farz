@@ -1,0 +1,34 @@
+import RPi.GPIO as GPIO
+import time
+
+# Define GPIO pins
+DIR = 20
+STEP = 21
+
+# Set up GPIO
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(DIR, GPIO.OUT)
+GPIO.setup(STEP, GPIO.OUT)
+
+# Define some parameters
+delay = 0.001  # Adjust this value to change speed
+steps_per_revolution = 200  # Number of steps per full revolution
+
+# Function to move the stepper motor clockwise
+def move_clockwise(steps):
+    GPIO.output(DIR, GPIO.HIGH)  # Set direction to clockwise
+    for _ in range(steps):
+        GPIO.output(STEP, GPIO.HIGH)
+        time.sleep(delay)
+        GPIO.output(STEP, GPIO.LOW)
+        time.sleep(delay)
+
+# Example usage
+if __name__ == "__main__":
+    try:
+        move_clockwise(steps_per_revolution)  # Move clockwise by one revolution
+        time.sleep(1)  # Wait for 1 second
+    except KeyboardInterrupt:
+        GPIO.cleanup()  # Clean up GPIO on Ctrl+C exit
+
+

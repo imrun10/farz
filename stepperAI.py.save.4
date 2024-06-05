@@ -1,0 +1,15 @@
+        time.sleep(delay)
+        GPIO.output(STEP, GPIO.LOW)
+        time.sleep(delay)
+
+# Example usage
+if __name__ == "__main__":
+    try:
+        while True:
+            move_stepper(steps_per_revolution, GPIO.HIGH)  # Move clockwise
+            time.sleep(1)
+            move_stepper(steps_per_revolution, GPIO.LOW)  # Move counterclockwise
+            time.sleep(1)
+    except KeyboardInterrupt:
+        GPIO.cleanup()  # Clean up GPIO on Ctrl+C exi
+
