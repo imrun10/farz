@@ -4,10 +4,10 @@
 RpiMotorLib, A Raspberry pi python motor library
 --------------------------------------------------
 
-![ScreenShot dcmotor](https://github.com/gavinlyonsrepo/RpiMotorLib/blob/master/images/RF310T11400.jpg)
-![ScreenShot Nema](https://github.com/gavinlyonsrepo/RpiMotorLib/blob/master/images/nema11.jpg)
-![ScreenShot L298N](https://github.com/gavinlyonsrepo/RpiMotorLib/blob/master/images/L298N.jpg)
-![ScreenShot A4988](https://github.com/gavinlyonsrepo/RpiMotorLib/blob/master/images/A4988.jpg)
+![ScreenShot dcmotor](https://github.com/gavinlyonsrepo/RpiMotorLib/blob/master/extra/images/RF310T11400.jpg)
+![ScreenShot Nema](https://github.com/gavinlyonsrepo/RpiMotorLib/blob/master/extra/images/nema11.jpg)
+![ScreenShot L298N](https://github.com/gavinlyonsrepo/RpiMotorLib/blob/master/extra/images/L298N.jpg)
+![ScreenShot A4988](https://github.com/gavinlyonsrepo/RpiMotorLib/blob/master/extra/images/A4988.jpg)
 
 Table of contents
 ---------------------------
