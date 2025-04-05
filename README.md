@@ -34,7 +34,7 @@ The end user can import this library into their projects
 and then control the components with short snippets of code.
 The library is modular so user can just import/use the section they need.
 
-* Main Author: Gavin Lyons , [website.](https://gavinlyonsrepo.github.io/).
+* Main Author: Gavin Lyons , [website](https://gavinlyonsrepo.github.io/).
 * Project URL: [URL LINK](https://github.com/gavinlyonsrepo/RpiMotorLib)
 * History: CHANGELOG.md is at repository in documentation.
 * Copyright: See LICENSE.md 
