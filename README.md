@@ -57,31 +57,6 @@ Make sure that python3 and pip3 have been installed on your machine, then:
 sudo pip3 install rpimotorlib
 ```
 
-Files
------------------------------------------
-rpiMotorLib files are listed below:
-
-| File Path | Description |
-| ------ | ------ |
-| RPiMotorLib/RpiMotorLib.py |  stepper motor python library file |
-| RPiMotorLib/rpiservolib.py | servo python library RPi.GPIO  PWM file |
-| RPiMotorLib/rpi_pservo_lib.py | servo python library pigpio PWM file |
-| RPiMotorLib/rpi_dc_lib.py  |    DC python motor library  file |
-| documentation/*.md | 15 markdown library documentation files |
-| test/*Test.py | 14 python test files |
-| /usr/share/doc/RpiMotorLib/README.md | This help file |
-| RPiMotorLib/RpiMotorScriptLib.py | small script with meta data about library |
-
-A small script is installed to display version and help information.
-Run the information script by typing.
-RpiMotorScriptLib.py -[options]
-
-| Option          | Description     |
-| --------------- | --------------- |
-| -h  | Print help information and exit |
-| -v  | Print version information and exit |
-
-
 Dependencies
 -----------
 
@@ -100,14 +75,6 @@ control of the General Purpose Input Outputs (GPIO).
 
 Components
 ----------------------
-
-Şeparate help files are in documentation folder to learn how to use library.
-Click on the relevant URL link in tables below.
-Test files used during development are in test folder of repo.
-Example snippets are also available in some of the documentation files.
-There is a libre office spreadsheet file in the Documentation folder called Matrix, 
-which shows which class is used for which controller, 
-or consult the docstring of the appropriate python file.
 
 1. Stepper motors
 
