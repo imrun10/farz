@@ -223,6 +223,10 @@ Most scripts include debug functions and verbose output for troubleshooting.
 
 We welcome contributions! See the [CONTRIBUTING](CONTRIBUTING.md) file for details.
 
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ## 🙏 Acknowledgments
 
 - TensorFlow team for TensorFlow Lite
