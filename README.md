@@ -25,6 +25,8 @@ This system uses AI-powered image classification to identify waste materials (pa
 - **YOLO Model** (`best.pt`) - Object detection and classification
 - **Quantized Model** (`quantized_model.tflite`) - Further optimized for performance
 
+**ML Training Repository**: For model training and development details, see [Farz ML Repository](https://github.com/m7amd777/Farz)
+
 ### Supported Waste Categories
 
 1. **Paper** (Quadrant 1)
@@ -244,4 +246,3 @@ For issues and questions:
 ---
 
 **Note**: This system requires proper hardware setup and calibration. Always test individual components before running the full system.
-
