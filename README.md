@@ -93,7 +93,7 @@ pip install -r requirements.txt  # Note: Create from farzpackagesvenv.txt
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/imrun10/farz.git
 cd farz
 
 # Set up virtual environment (optional but recommended)
